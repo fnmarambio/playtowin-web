@@ -1,0 +1,360 @@
+html,body{
+    color:white;
+    font-family:'Opens Sans',helvetica;  
+    height:100%;
+    width:100%;
+    margin: 0px;
+    padding-top: 28px;
+    background-color: blue;
+  }
+
+
+.portada{
+ 
+    background: url(../img/portada-bg.jpg)no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    width: 100% ;
+    text-align: center;
+    padding-top: 200px;
+    font-size: 30px;
+    
+
+}
+
+.portada-bg {
+    max-width: 100%;
+    height: auto;
+  }
+
+.textoTitulo{
+    font-size: 120px;
+   
+}
+
+.titleNav{
+    font-size: 21px;
+    padding-left: 20px;
+
+}
+
+.textoParrafo{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.torneos{
+
+    background-color: white;
+    padding-top: 7%;
+    padding-bottom: 3%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.titulos{
+    font-size: 50px;
+margin-bottom: 6%;
+}
+
+
+.v11{
+    background-color: white;
+    padding-top: 1%;
+    padding-bottom: 2%;
+
+}
+
+.v12{
+    background-color: rgb(236, 27, 27);
+    padding-top: 1%;
+    padding-bottom: 2%;
+
+}
+.v1{
+display: flex;
+flex-flow: row wrap;
+justify-content: space-around;
+}
+
+
+/*CardProfile*/
+.cardProfile {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    text-align: center;
+    background-color: cyan;
+  }
+  
+  .title {
+    color: grey;
+    font-size: 18px;
+  }
+  
+  b.buttonProfile {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .aProfile {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+  }
+  
+  .buttonProfile:hover, a:hover {
+    opacity: 0.7;
+  }
+
+  /*Fin cardprofile*/
+
+.card{
+    margin-top: 2%;
+}
+
+
+/*TopPLayers*/
+
+.topPlayers{
+
+    background-color:rgb(43, 226, 113);
+    padding-top: 7%;
+    padding-bottom: 3%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.informacion{
+
+    background-color:rgb(226, 43, 226);
+    padding-top: 7%;
+    padding-bottom: 3%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+
+
+/*======  NAVBAR  ======*/
+
+.logoNavbar{
+    width: 60px;
+    
+}
+
+
+
+
+/* ======== FONTS ========== */
+
+@font-face{
+
+    font-family: binaria;
+    src:url(../fonts/binaria.otf);
+}
+
+.binariaFont{
+    font-family: binaria;
+}
+
+.secondFont{
+    font-family: 'Saira', sans-serif;
+}
+
+/* ======== MEDIA QUERY WIDTH ========== */
+
+
+
+@media screen and (max-width: 1500px){
+    .portada{
+        font-size: 20px;
+    }
+  
+
+    .textoTitulo{
+        font-size: 110px;
+    }
+}
+
+
+@media screen and (max-width: 600px){
+    .portada{
+        font-size: 20px;
+    }
+
+    .textoTitulo{
+        font-size: 90px;
+    }
+
+    
+}
+
+@media screen and (max-width: 500px){
+    .portada{
+        font-size: 14px;
+        padding-top: 50px;
+
+    }
+
+    .textoTitulo{
+        font-size: 60px;
+
+    }
+    .textoParrafo{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+ 
+    
+}
+
+
+/* ======== MEDIA QUERY HEIGHT ========== */
+
+@media screen and (max-height:800px){
+    .portada{
+        
+        padding-top: 100px;
+
+    }
+
+}
+
+@media screen and (max-height:550px){
+    .portada{
+        
+        padding-top: 50px;
+
+    }
+
+}
+
+
+@media screen and (max-height:460px){
+    .portada{
+        
+        padding-top: 10px;
+
+    }
+
+   
+
+}
+
+
+
+
+
+
+
+
+.social-bar {
+	position: fixed;
+	right: 0;
+	top: 35%;
+	font-size: 1.5rem;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	z-index: 100;
+}
+
+.icon {
+	color: white;
+	text-decoration: none;
+	padding: .7rem;
+	display: flex;
+	transition: all .5s;
+}
+
+.icon-facebook {
+	background: #2E406E;
+}
+
+.icon-twitter {
+	background: #339DC5;
+}
+
+.icon-youtube {
+	background: #E83028;
+}
+
+.icon-instagram {
+	background: #3F60A5;
+}
+
+.icon:first-child {
+	border-radius: 1rem 0 0 0;
+}
+
+.icon:last-child {
+	border-radius: 0 0 0 1rem;
+}
+
+.icon:hover {
+	padding-right: 3rem;
+	border-radius: 1rem 0 0 1rem;
+	box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.42);
+}
+
+
+@font-face {
+    font-family: 'icomoon';
+    src:  url('fonts/icomoon.eot?i226ha');
+    src:  url('fonts/icomoon.eot?i226ha#iefix') format('embedded-opentype'),
+      url('fonts/icomoon.ttf?i226ha') format('truetype'),
+      url('fonts/icomoon.woff?i226ha') format('woff'),
+      url('fonts/icomoon.svg?i226ha#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  [class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  /*
+  .icon-facebook:before {
+    content: "\ea90";
+  }
+  .icon-instagram:before {
+    content: "\ea92";
+  }
+  .icon-twitter:before {
+    content: "\ea96";
+  }
+  .icon-youtube:before {
+    content: "\ea9d";
+  }
+  
+  */
+
+  .fontIcon{
+      width: 25px;
+  }
